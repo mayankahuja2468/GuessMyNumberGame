@@ -1,0 +1,159 @@
+body{
+    background-color: black;
+ 
+    text-align: center;
+    font-family: 'Super Mario Bros Alphabet', sans-serif;
+    font-size: 25px;
+    transition: 1s;
+}
+
+
+
+.test1{
+    background-color: blueviolet;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    border: 2px solid blueviolet;
+    overflow: hidden;
+    width:fit-content;
+    height: fit-content;
+    text-align: center;
+    font-family: 'Super Mario Bros Alphabet', sans-serif;
+    font-size: 25px;
+    transition: 1s;
+   
+    
+}
+.test1:hover{
+    background-color: black;
+    color: blueviolet;
+    cursor: pointer;
+}
+.test2{
+    background-color: blueviolet;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    position: absolute;
+    top: 60%;
+    left: 19%;
+   
+    border: 2px solid blueviolet;
+    overflow: hidden;
+    width:fit-content;
+    height: fit-content;
+    text-align: center;
+    font-family: 'Super Mario Bros Alphabet', sans-serif;
+    font-size: 25px;
+    transition: 1s;
+   
+    
+}
+.test2:hover{
+    background-color: black;
+    color: blueviolet;
+    cursor: pointer;
+}
+input[type=text], select {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    font-size: large;
+  
+    background-color: black;
+    color: blueviolet;
+    padding: 20px;
+    position: absolute;
+    display: inline-block;
+    border: 3px solid blueviolet;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 200px;
+  }
+.test3{
+    background-color: black;
+    color: blueviolet;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    border: 5px solid blueviolet;
+    overflow: hidden;
+    width:fit-content;
+    height: fit-content;
+    text-align: center;
+    font-family: 'Super Mario Bros Alphabet', sans-serif;
+    font-size: 45px;
+    transition: 1s;
+        
+}
+.linebeforetest3{
+    height: 5px;
+    width: 650px;
+    position: absolute;
+    top: 26%;
+    left: 0%;
+    background-color: blueviolet;
+
+    
+}
+.lineaftertest3{
+    height: 5px;
+    width: 593px;
+    position: absolute;
+    top: 26%;
+    right: 0%;
+    background-color: blueviolet;
+
+    
+}
+.test4{
+    background-color: black;
+    color: blueviolet;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 50px;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    border: 5px solid blueviolet;
+    overflow: hidden;
+    width: 300px;;
+    height: fit-content;
+    text-align: center;
+    font-family: 'Super Mario Bros Alphabet', sans-serif;
+    font-size: 25px;
+    transition: 1s;
+   
+    
+}
+.scoreacard{
+    display: inline-block;
+}
+#score{
+    display: inline;
+}
+.highscoreacard{
+    display: inline-block;
+}
+#highscore{
+    display: inline;
+}
+/*
+@keyframes example {
+    from {background-color: blueviolet;}
+    to {background-color: black;}
+  }
+  */
